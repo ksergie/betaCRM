@@ -44,7 +44,8 @@ body {
 .login-form-input {
     display: flex;
     flex-direction: column;
-    height: 468px;
+    height: auto;
+    width: 375px;
     background-color: #FFFFFF;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -53,10 +54,15 @@ body {
 .login-form-input-fields {
     display: flex;
     flex-direction: column;
-    height: 298px;
+    width: 325px;
+    height: auto;
     margin-top: 21px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.login-form-input-fields div:nth-child(5) {
+    align-self: center;
 }
 
 .login-form-items {
@@ -114,6 +120,47 @@ body {
 
 .sign-in {
     color: #5E81F4;
+}
+
+.share {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 88px;
+    width: 150px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8181A5;
+    border-radius: 5px;
+    height: 46px;
+    width: 46px;
+}
+
+.social svg {
+    fill: #8181A5;
+    height: 20px;
+    width: 20px;
+}
+
+.bar {
+    display: flex;
+    height: 6px;
+    width: 134px;
+    align-self: center;
+    margin-top: 28px;
+    margin-bottom: 5px;
 }
 
 
